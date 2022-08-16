@@ -1,0 +1,44 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+    .img-block,
+    
+    .text {
+        position: relative;
+        display: grid;
+        place-items: center;
+        width: 100%;
+        height: 100%;
+        gap: 3rem;
+    }
+    .img-block{
+        .pos-img{
+            position: absolute;
+        }
+    }
+
+    .text {
+
+      
+        h2 {
+            margin-top: 2rem;
+            font-size: 2rem;
+        }
+
+        p {
+            margin-top: 2rem;
+            width: 50%;
+            text-align: center;
+        }
+    }
+
+
+    footer {
+        margin-top: 2rem;
+        width: 100%;
+        height: 100px;
+        display: grid;
+        place-items: center;
+    }
+}

@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif
+}
+
+
+@import url('./navbar.scss');
+@import url('./menu.scss');
+@import url('./about.scss');
+@import url('./contact.scss');
